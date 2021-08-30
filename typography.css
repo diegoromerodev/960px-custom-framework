@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;800&display=swap");
+*, *::after, *::before {
+  font-family: Poppins, Arial, Helvetica, sans-serif; }
+
+.thin {
+  font-weight: 100; }
+
+.reg {
+  font-weight: 400; }
+
+.bold {
+  font-weight: 600; }
+
+.extra {
+  font-weight: 800; }
+
+.center {
+  text-align: center; }
+
+.right {
+  text-align: right; }
+
+.left {
+  text-align: left; }
+
+.text-shadow-xs {
+  text-shadow: 0 0.7px 1.4px rgba(51, 51, 51, 0.07); }
+
+.text-xs {
+  font-size: 0.7rem; }
+
+@media screen and (max-width: 1200px) {
+  .md-text-xs {
+    font-size: 0.7rem; } }
+@media screen and (max-width: 800px) {
+  .sm-text-xs {
+    font-size: 0.7rem; } }
+.text-shadow-sm {
+  text-shadow: 0 1px 2px rgba(51, 51, 51, 0.1); }
+
+.text-sm {
+  font-size: 1rem; }
+
+@media screen and (max-width: 1200px) {
+  .md-text-sm {
+    font-size: 1rem; } }
+@media screen and (max-width: 800px) {
+  .sm-text-sm {
+    font-size: 1rem; } }
+.text-shadow-md {
+  text-shadow: 0 2px 4px rgba(51, 51, 51, 0.2); }
+
+.text-md {
+  font-size: 2rem; }
+
+@media screen and (max-width: 1200px) {
+  .md-text-md {
+    font-size: 2rem; } }
+@media screen and (max-width: 800px) {
+  .sm-text-md {
+    font-size: 2rem; } }
+.text-shadow-lg {
+  text-shadow: 0 4px 8px rgba(51, 51, 51, 0.4); }
+
+.text-lg {
+  font-size: 4rem; }
+
+@media screen and (max-width: 1200px) {
+  .md-text-lg {
+    font-size: 4rem; } }
+@media screen and (max-width: 800px) {
+  .sm-text-lg {
+    font-size: 4rem; } }
+.text-shadow-xl {
+  text-shadow: 0 6px 12px rgba(51, 51, 51, 0.6); }
+
+.text-xl {
+  font-size: 6rem; }
+
+@media screen and (max-width: 1200px) {
+  .md-text-xl {
+    font-size: 6rem; } }
+@media screen and (max-width: 800px) {
+  .sm-text-xl {
+    font-size: 6rem; } }
+
+/*# sourceMappingURL=typography.css.map */

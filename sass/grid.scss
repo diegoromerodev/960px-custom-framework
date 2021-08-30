@@ -1,0 +1,123 @@
+.container-full {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    column-gap: 20px;
+}
+.container-half {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+    column-gap: 20px;
+}
+.container-third {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    column-gap: 20px;
+}
+
+$percentages: 100, 75, 50;
+
+@each $width in $percentages {
+    .width-#{$width} {
+        width: $width * 1%;
+    }
+}
+
+
+$widths: 1050, 960, 720, 500;
+
+@each $width in $widths {
+    .maxw-#{$width} {
+        max-width: #{$width}px;
+        flex: 1 0 100%;
+    }
+}
+
+@for $i from 1 through 12 {
+    .span-#{$i} {
+        grid-column-end: span $i;
+    }
+
+    .start-#{$i} {
+        grid-column-start: $i;
+    }
+
+    @media screen and (max-width: 1200px) {
+        .md-span-#{$i} {
+            grid-column-end: span $i;
+        }
+
+        .md-start-#{$i} {
+            grid-column-start: $i;
+        }
+    }
+    
+    @media screen and (max-width: 800px) {
+        .sm-span-#{$i} {
+            grid-column-end: span $i;
+        }
+
+        .sm-start-#{$i} {
+            grid-column-start: $i;
+        }
+    }
+}
+
+.dead-center {
+    display: grid;
+    place-items: center;
+}
+
+.dead-left {
+    display: grid;
+    place-items: start start;
+}
+
+.dead-right {
+    display: grid;
+    place-items: end end;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-x-centered {
+    display: flex;
+    justify-content: center;
+}
+
+.flex-x-spb {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-y-centered {
+    display: flex;
+    align-items: center;
+}
+
+@for $i from 1 through 10 {
+    .flex-grow-#{$i} {
+        flex-grow: $i;
+    }
+}
+
+
+.self-center {
+    justify-self: center;
+    align-self: center;
+}
+
+.center-y {
+    align-items: center;
+}

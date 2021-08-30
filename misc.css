@@ -1,0 +1,145 @@
+.rounded-xs {
+  border-radius: 2.5px; }
+
+.x-padding-xs {
+  padding-left: 0.5em;
+  padding-right: 0.5em; }
+
+.y-padding-xs {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em; }
+
+.x-margin-xs {
+  margin-left: 0.5em;
+  margin-right: 0.5em; }
+
+.y-margin-xs {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.children-margin-xs > * {
+  margin-top: 0.5em;
+  margin-bottom: 0.5em; }
+
+.shadow-xs {
+  box-shadow: 0 0.6px 2.5px rgba(51, 51, 51, 0.075); }
+
+.rounded-sm {
+  border-radius: 5px; }
+
+.x-padding-sm {
+  padding-left: 1em;
+  padding-right: 1em; }
+
+.y-padding-sm {
+  padding-top: 1em;
+  padding-bottom: 1em; }
+
+.x-margin-sm {
+  margin-left: 1em;
+  margin-right: 1em; }
+
+.y-margin-sm {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.children-margin-sm > * {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+
+.shadow-sm {
+  box-shadow: 0 1.2px 5px rgba(51, 51, 51, 0.15); }
+
+.rounded-md {
+  border-radius: 10px; }
+
+.x-padding-md {
+  padding-left: 2em;
+  padding-right: 2em; }
+
+.y-padding-md {
+  padding-top: 2em;
+  padding-bottom: 2em; }
+
+.x-margin-md {
+  margin-left: 2em;
+  margin-right: 2em; }
+
+.y-margin-md {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.children-margin-md > * {
+  margin-top: 2em;
+  margin-bottom: 2em; }
+
+.shadow-md {
+  box-shadow: 0 2.4px 10px rgba(51, 51, 51, 0.3); }
+
+.rounded-lg {
+  border-radius: 20px; }
+
+.x-padding-lg {
+  padding-left: 4em;
+  padding-right: 4em; }
+
+.y-padding-lg {
+  padding-top: 4em;
+  padding-bottom: 4em; }
+
+.x-margin-lg {
+  margin-left: 4em;
+  margin-right: 4em; }
+
+.y-margin-lg {
+  margin-top: 4em;
+  margin-bottom: 4em; }
+
+.children-margin-lg > * {
+  margin-top: 4em;
+  margin-bottom: 4em; }
+
+.shadow-lg {
+  box-shadow: 0 4.8px 20px rgba(51, 51, 51, 0.6); }
+
+.rounded-xl {
+  border-radius: 30px; }
+
+.x-padding-xl {
+  padding-left: 6em;
+  padding-right: 6em; }
+
+.y-padding-xl {
+  padding-top: 6em;
+  padding-bottom: 6em; }
+
+.x-margin-xl {
+  margin-left: 6em;
+  margin-right: 6em; }
+
+.y-margin-xl {
+  margin-top: 6em;
+  margin-bottom: 6em; }
+
+.children-margin-xl > * {
+  margin-top: 6em;
+  margin-bottom: 6em; }
+
+.shadow-xl {
+  box-shadow: 0 7.2px 30px rgba(51, 51, 51, 0.9); }
+
+.separator {
+  border-top: 1px solid #e5e5e5; }
+
+.border-thin {
+  text-align: center;
+  border: 1px solid #e5e5e5; }
+
+.border-reg {
+  text-align: center;
+  border: 3px solid #e5e5e5; }
+
+.btn {
+  padding: 0.5rem 0.7rem; }
+
+/*# sourceMappingURL=misc.css.map */

@@ -1,0 +1,54 @@
+$units: ("xs": 0.5, "sm": 1, "md": 2, "lg": 4, "xl": 6);
+
+@each $name, $multiplier in $units {
+    .rounded-#{$name} {
+        border-radius: $multiplier * 5px;
+    }
+
+    .x-padding-#{$name} {
+        padding-left: #{$multiplier}em;
+        padding-right: #{$multiplier}em;
+    }
+
+    .y-padding-#{$name} {
+        padding-top: #{$multiplier}em;
+        padding-bottom: #{$multiplier}em;
+    }
+
+    .x-margin-#{$name} {
+        margin-left: #{$multiplier}em;
+        margin-right: #{$multiplier}em;
+    }
+
+    .y-margin-#{$name} {
+        margin-top: #{$multiplier}em;
+        margin-bottom: #{$multiplier}em;
+    }
+
+    .children-margin-#{$name} > * {
+        margin-top: #{$multiplier}em;
+        margin-bottom: #{$multiplier}em;
+    }
+
+    .shadow-#{$name} {
+        box-shadow: 0 $multiplier * 1.2px $multiplier * 5px rgba($color: #333, $alpha: 0.3 * ($multiplier/2));
+    }
+}
+
+.separator {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-thin {
+    text-align: center;
+    border: 1px solid #e5e5e5;
+}
+
+.border-reg {
+    text-align: center;
+    border: 3px solid #e5e5e5;
+}
+
+.btn {
+    padding: 0.5rem 0.7rem;
+}

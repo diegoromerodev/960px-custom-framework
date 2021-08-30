@@ -1,0 +1,45 @@
+/* COLORS VARIABLES */
+/* CREATING COLOR CLASSES WITH LOOP*/
+.bg-alert {
+  background-color: #FF2442; }
+
+.text-alert {
+  color: #FF2442; }
+
+.bg-warning {
+  background-color: #FFC93C; }
+
+.text-warning {
+  color: #FFC93C; }
+
+.bg-success {
+  background-color: #4AA96C; }
+
+.text-success {
+  color: #4AA96C; }
+
+.bg-info {
+  background-color: #3DB2FF; }
+
+.text-info {
+  color: #3DB2FF; }
+
+.bg-light {
+  background-color: #FAF3F3; }
+
+.text-light {
+  color: #FAF3F3; }
+
+.bg-dark {
+  background-color: #082032; }
+
+.text-dark {
+  color: #082032; }
+
+.bg-transparent {
+  background-color: transparent; }
+
+.text-transparent {
+  color: transparent; }
+
+/*# sourceMappingURL=colors.css.map */

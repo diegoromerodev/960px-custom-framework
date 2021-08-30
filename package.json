@@ -1,0 +1,23 @@
+{
+  "name": "960px-custom-framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diegoromerodev/960px-custom-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diegoromerodev/960px-custom-framework/issues"
+  },
+  "homepage": "https://github.com/diegoromerodev/960px-custom-framework#readme",
+  "dependencies": {
+    "sass": "^1.38.2"
+  }
+}

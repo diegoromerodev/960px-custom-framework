@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="reset.css">
+        <link rel="stylesheet" type="text/css" href="misc.css">
+        <link rel="stylesheet" type="text/css" href="colors.css">
+        <link rel="stylesheet" type="text/css" href="typography.css">
+        <link rel="stylesheet" type="text/css" href="grid.css">
+        <link rel="stylesheet" type="text/css" href="custom.css">
+        <title>Grid System Test + Framework Test</title>
+    </head>
+    <body>
+        <div class="container-full x-padding-md y-padding-sm bg-warning">
+            <h2 class="bold span-9 bg-alert rounded-sm x-padding-sm y-padding-sm 
+                text-light text-shadow-md dead-center md-span-12 center y-margin-xs">
+                The following example was created using my own
+                <span class="reg">(basic and in alpha)</span>hybrid grid-based framework!
+                <span class="btn bg-dark text-light border-reg rounded-md">MADE WITH SASS</span>
+            </h2>
+            <h2 class="span-3 sm-span-12 bg-success shadow-md rounded-md
+                dead-center center y-padding-xs y-margin-xs md-span-12 flex-wrap">
+                Includes:
+                <button class="btn border-reg bg-transparent text-light bold">
+                    BUTTONS!
+                </button>
+                <p class="bg-info y-padding-xs x-padding-xs y-margin-xs rounded-sm text-light text-sm">
+                    BACKGROUNDS!
+                </p>
+                <p class="text-shadow-sm">
+                    <span class="text-info">C</span>
+                    <span class="text-alert">O</span>
+                    <span class="text-warning">L</span>
+                    <span class="text-dark">O</span>
+                    <span class="text-light">R</span>
+                    <span class="text-info">S</span>
+                    <span class="text-alert">!</span>
+                </p>
+                <p>
+                    <span class="extra">and</span>
+                    <span class="bold"> much </span>
+                    <span class="reg">more</span>
+                    <span class="thin">!</span>
+                </p>
+            </h2>
+        </div>
+        <nav class="container-full">
+            <div class="gradient-accent span-12"></div>
+            <div class="span-12 flex-centered md-text-xs">
+                <div class="flex-x-spb maxw-960 y-padding-sm x-padding-xs">
+                    <p>❤ Nineteen Poor Moths</p>
+                    <ul class="flex">
+                        <li class="x-padding-sm">Products</li>
+                        <li class="x-padding-sm">Pricing</li>
+                        <li class="x-padding-sm">Documentation</li>
+                        <li class="x-padding-sm">Community</li>
+                </div>
+            </div>
+            </div>
+            <div class="separator span-12"></div>
+            <div class="bottom-nav span-12 flex-centered">
+                <div class="flex maxw-960 center-y y-padding-sm">
+                    <svg class="logo x-margin-xs" viewBox="0 0 780 250"><path fill="#231F20" d="M240,250h100v-50h100V0H240V250z M340,50h50v100h-50V50z M480,0v200h100V50h50v150h50V50h50v150h50V0H480z M0,200h100V50h50v150h50V0H0V200z"></path></svg>
+                    <div class="flex-grow-1 x-padding-xs y-padding-xs search-bar flex-x-spb">
+                        <img class="search-icon" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJDYXBhXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB2aWV3Qm94PSIwIDAgMTE4Ljc4MyAxMTguNzgzIiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCAxMTguNzgzIDExOC43ODM7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxnPg0KCTxwYXRoIGQ9Ik0xMTUuOTcsMTAxLjU5N0w4OC42NjEsNzQuMjg2YzQuNjQtNy4zODcsNy4zMzMtMTYuMTE4LDcuMzMzLTI1LjQ4OGMwLTI2LjUwOS0yMS40OS00Ny45OTYtNDcuOTk4LTQ3Ljk5Ng0KCQlTMCwyMi4yODksMCw0OC43OThjMCwyNi41MSwyMS40ODcsNDcuOTk1LDQ3Ljk5Niw0Ny45OTVjMTAuMTk3LDAsMTkuNjQyLTMuMTg4LDI3LjQxNC04LjYwNWwyNi45ODQsMjYuOTg2DQoJCWMxLjg3NSwxLjg3Myw0LjMzMywyLjgwNiw2Ljc4OCwyLjgwNmMyLjQ1OCwwLDQuOTEzLTAuOTMzLDYuNzkxLTIuODA2QzExOS43MiwxMTEuNDIzLDExOS43MiwxMDUuMzQ3LDExNS45NywxMDEuNTk3eg0KCQkgTTQ3Ljk5Niw4MS4yNDNjLTE3LjkxNywwLTMyLjQ0My0xNC41MjUtMzIuNDQzLTMyLjQ0M3MxNC41MjYtMzIuNDQ0LDMyLjQ0My0zMi40NDRjMTcuOTE4LDAsMzIuNDQzLDE0LjUyNiwzMi40NDMsMzIuNDQ0DQoJCVM2NS45MTQsODEuMjQzLDQ3Ljk5Niw4MS4yNDN6Ii8+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8L3N2Zz4NCg==" />
+                        <input class="flex-grow-1 bg-transparent" type="text" placeholder="Search packages">
+                    </div>
+                    <button class="btn square-btn filled text-light bg-dark">
+                        <strong>Search</strong>
+                    </button>
+                    <div class="bar-buttons flex x-margin-xs">
+                        <button class="btn square-btn border-thin bg-transparent">Sign Up</button>
+                        <button class="btn square-btn bg-transparent">Sign In</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <header class="container-full">
+            <div class="span-12 dead-center bg-alert y-padding-md">
+                <div class="maxw-500 center text-light children-margin-xs">
+                    <h1 class="text-lg extra">Build amazing things</h1>
+                    <p>We're npm, Inc., the company behind Node package manager, the npm Registry, and npm CLI. We offer those to the community for free, but our day job is building and selling useful tools for developers like you.</p>
+                    <h3 class="text-md bold">Take your JavaScript development up a notch</h3>
+                    <p>Get started today for free, or step up to npm Pro to enjoy a premium JavaScript development experience, with features like private packages.</p>
+                    <div class="width-100 flex y-margin-md">
+                        <button class="btn rounded-xl y-padding-md bg-warning
+                            flex-grow-1 x-margin-xs shadow-lg bold">
+                            <h4 class="y-padding-xs">Sign up for free</h4>
+                        </button>
+                        <button class="btn rounded-xl flex-grow-1 bold
+                            x-margin-xs bg-transparent border-reg text-light">
+                            <h4 class="y-padding-xs">Learn more about pro</h4>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="container-full">
+            <div class="span-12 dead-center y-padding-lg">
+                <div class="maxw-500 dead-center center children-margin-xs">
+                    <img src="https://static.npmjs.com/attachments/ck3uweazy72ye8874y9kkxnx1-gak.png" alt="blob">
+                    <h2 class="bold text-md">
+                        Bring the best of open source to you, your team, and your company
+                    </h2>
+                    <p>
+                        Relied upon by more than 11 million developers worldwide, npm is committed to making JavaScript development elegant, productive, and safe. The free npm Registry has become the center of JavaScript code sharing, and with more than one million packages, the largest software registry in the world. Our other tools and services take the Registry, and the work you do around it, to the next level.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container-full">
+            <div class="span-12 dead-center bg-alert">
+                <div class="maxw-500 center text-light children-margin-xs
+                    y-padding-md">
+                    <h2 class="text-md bold">We love open source</h2>
+                    <p>
+                        At npm, Inc., we're proud to dedicate teams of full-time employees to operating the npm Registry, enhancing the CLI, improving JavaScript security, and other projects that support and nurture a vibrant open source community.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="container-full y-padding-md">
+            <div class="span-12 dead-center">
+                <div class="maxw-500 center children-margin-xs">
+                    <h2 class="bold text-md">
+                        Gratefully serving everyone from solo devs to the Fortune 500
+                    </h2>
+                    <img class="width-100" src="https://static.npmjs.com/attachments/ck49cu3ceh1sust74dkzkfn69-grey-logowall.png">
+                </div>
+            </div>
+        </section>
+        <div class="separator"></div>
+        <footer class="span-12 flex-centered">
+            <div class="flex-x-spb maxw-960 flex-wrap x-margin-xl">
+                <div class="flex y-padding-sm">
+                    <div class="y-margin-sm x-margin-md">
+                        <svg viewBox="0 0 27.23 27.23"><rect fill="#333333" width="27.23" height="27.23" rx="2"></rect><polygon fill="#fff" points="5.8 21.75 13.66 21.75 13.67 9.98 17.59 9.98 17.58 21.76 21.51 21.76 21.52 6.06 5.82 6.04 5.8 21.75"></polygon></svg>
+                        <svg aria-hidden="true" role="img" class="" viewBox="0 0 16 16" width="50" height="50" fill="black" style="display:inline-block;user-select:none;vertical-align:top"><path fill-rule="evenodd" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"></path></svg>
+                    </div>
+                    <div>
+                        <p class="bold y-margin-sm">Support</p>
+                        <ul class="children-margin-xs">
+                            <li>Help</li>
+                            <li>Community</li>
+                            <li>Avisories</li>
+                            <li>Status</li>
+                            <li>Contact npm</li>
+                        </ul>
+                    </div>
+                </div>
+                <div>
+                    <p class="bold y-margin-sm">Company</p>
+                    <ul class="children-margin-xs">
+                        <li>About</li>
+                        <li>Blog</li>
+                        <li>Press</li>
+                    </ul>
+                </div>
+                <div>
+                    <p class="bold y-margin-sm">Terms & Policies</p>
+                    <ul class="children-margin-xs">
+                        <li>Policies</li>
+                        <li>Terms of Use</li>
+                        <li>Code of Conduct</li>
+                        <li>Privacy</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div class="gradient-accent span-12"></div>
+    </body>
+</html>

@@ -1,0 +1,15 @@
+/* COLORS VARIABLES */
+$colors: ("alert": #FF2442, "warning": #FFC93C, 
+    "success": #4AA96C, "info": #3DB2FF, "light": #FAF3F3,
+    "dark": #082032, "transparent": transparent);
+
+/* CREATING COLOR CLASSES WITH LOOP*/
+
+@each $name, $hex in $colors {
+    .bg-#{$name} {
+        background-color: $hex;
+    }
+    .text-#{$name} {
+        color: $hex;
+    }
+}
